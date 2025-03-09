@@ -1,0 +1,14 @@
+{
+    "name": "prism-mock-server",
+    "version": "1.0.0",
+    "description": "Mock API server with Prism",
+    "scripts": {
+      "mock": "prism mock api.yml --port=4000 --dynamic",
+      "mock:watch": "nodemon --exec 'npm run mock' --watch api.yml"
+    },
+    "devDependencies": {
+      "@stoplight/prism-cli": "^4.11.0",
+      "nodemon": "^3.0.0"
+    }
+}
+  
